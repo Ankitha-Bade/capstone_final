@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat+Brush&display=swap');
+*{
+    color: #0e00fe;
+    font-family: 'Caveat Brush', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+    background-color:#75E6FF;
+}
+
+.bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #9affd3;
+    padding: 5px;
+}
+
+.button{
+    height: 30px;
+    width: 50px;
+    color: #c1f6b9;
+}
+
+div{
+    font-family: 'Caveat Brush', cursive;
+    color: #0e00fe;
+}
+div h1{
+    font-size: 60px;
+    text-align: center;
+} 
+
+div p{
+    font-size: 35px;
+    text-align: center;
+}
+
+#pic{
+    position:absolute;
+    top:400px;
+    left: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#swim{
+    position:absolute;
+    top:400px;
+    left: 210px;
+    height: 200px;
+    width: 200px;
+}
+
+#skate{
+    position:absolute;
+    top:400px;
+    left: 410px;
+    height: 200px;
+    width: 200px;
+}
+
+#book{
+    position:absolute;
+    top:600px;
+    left: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#write{
+    position:absolute;
+    top:600px;
+    left: 210px;
+    height: 200px;
+    width: 200px;
+}
+
+#code{
+    position:absolute;
+    top:600px;
+    left: 410px;
+    height: 200px;
+    width: 200px;
+}
+
+#ma{
+    position:absolute;
+    top:400px;
+    left: 810px;
+    height: 400px;
+    width: 505;
+    margin-right: 10px;
+}
+
+#github{
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
+
+#flowers{
+    position:absolute;
+    top:400px;
+    left: 610px;
+    height: 400px;
+    width: 200px;
+}
+
+body{
+    animation: hello 60s infinite;
+}
+
+@keyframes hello{
+    0%{background-color: #a8efff;}
+    10%{background-color:#7be3fa;}
+    20%{background-color:#5adaf7;}
+    30%{background-color:#22d2fa;}
+    40%{background-color:#14d4ff;}
+    50%{background-color:#00cefc;}
+    60%{background-color:#00cefc;}
+    70%{background-color:#14d4ff;}
+    80%{background-color:#22d2fa;}
+    90%{background-color:#5adaf7;}
+    100%{background-color:#a8efff;}
+}

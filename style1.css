@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat+Brush&display=swap');
+*{
+    color: #0e00fe;
+    font-family: 'Caveat Brush', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    background-color: #75E6FF;
+    height: 80px;
+    padding: 0px;
+}
+
+.bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    font-size: 30px;
+    background-color: #9affd3;
+    font-family: 'Amatic SC', cursive;
+    padding: 5px;
+}
+
+.button{
+    height: 30px;
+    width: 50px;
+    color: #c1f6b9;
+}
+
+#name{
+    text-align: center;
+    font-size: 60px;
+}
+
+#why h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#why p{
+    font-size: 35px;
+    text-align: center;
+}
+
+.droplet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: violet;
+}
+
+#input h1{
+    font-size: 50px;
+}
+
+#input p{
+    font-size: 35px;
+}
+
+#pic{
+    position:absolute;
+    top:550px;
+    right: 0px;
+    height: 400px;
+    width: 400px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+
+
+
+#input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.square {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  text-align: center;
+  background-color: #f39c12;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  /* height: 50px;
+  width: 50px;
+  border-radius: 50%; */
+  /* border: 1px solid black; */
+  /* margin: 10px;
+  text-align: center;
+  background-color: violet;  */
+
+  
+    width: 50px;
+    height: 50px;
+    background-color: #55e4e2;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    /* transform: rotate(-45deg); */
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: 2.5px solid #fff;
+
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  height: 50px;
+  width: 100px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(42, 251, 5);
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: auto;
+}
+
+#number {
+  width: 150px;
+  height: 40px;
+  font-size: 1.2em;
+  padding: 0px 10px;
+}
+
+#button {
+  width: 100px;
+  height: 40px;
+  font-size: 1.2em;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+}
+
+body{
+  animation: hello 60s infinite;
+}
+
+@keyframes hello{
+  0%{background-color: #a8efff;}
+  10%{background-color:#7be3fa;}
+  20%{background-color:#5adaf7;}
+  30%{background-color:#22d2fa;}
+  40%{background-color:#14d4ff;}
+  50%{background-color:#00cefc;}
+  60%{background-color:#00cefc;}
+  70%{background-color:#14d4ff;}
+  80%{background-color:#22d2fa;}
+  90%{background-color:#5adaf7;}
+  100%{background-color:#a8efff;}
+}
